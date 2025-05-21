@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "DataScienceQuarto.html",
+    "href": "DataScienceQuarto.html",
+    "title": "DataScience",
+    "section": "",
+    "text": "A data scientist will take in large sets of data to sort through and analyze using the help of programming skills. Data scientists can be found in three main tracks.\n\nEngineering\nAnalysis\nModeling/Inference\n\nData engineers help to build the infrastructures to store and handle the data. Data analysts can get insights on the data by having domain knowledge and knowing how the data fits in the business. The modeling/inferencing process allows data scientists to find patterns that cannot be easily seen in the data."
+  },
+  {
+    "objectID": "DataScienceQuarto.html#what-is-a-data-scientist",
+    "href": "DataScienceQuarto.html#what-is-a-data-scientist",
+    "title": "DataScience",
+    "section": "",
+    "text": "A data scientist will take in large sets of data to sort through and analyze using the help of programming skills. Data scientists can be found in three main tracks.\n\nEngineering\nAnalysis\nModeling/Inference\n\nData engineers help to build the infrastructures to store and handle the data. Data analysts can get insights on the data by having domain knowledge and knowing how the data fits in the business. The modeling/inferencing process allows data scientists to find patterns that cannot be easily seen in the data."
+  },
+  {
+    "objectID": "DataScienceQuarto.html#data-scientists-vs-statisticians",
+    "href": "DataScienceQuarto.html#data-scientists-vs-statisticians",
+    "title": "DataScience",
+    "section": "Data Scientists vs Statisticians",
+    "text": "Data Scientists vs Statisticians\nThe difference between data scientists and statisticians is statisticians usually deal with smaller sets of data and focus on applying standard models to them in order to explore the data. Meanwhile, data scientists typically deal with larger sets of data and focuses on cleaning and preparing the data to bring to the model. In this way, data scientists work more closely with the collection and production of data than statisticians in order to properly prepare it for modeling."
+  },
+  {
+    "objectID": "DataScienceQuarto.html#my-relation",
+    "href": "DataScienceQuarto.html#my-relation",
+    "title": "DataScience",
+    "section": "My relation",
+    "text": "My relation\nIn relation to data science and statistics, I believe I know more about the statistics side when dealing with data. In my work, I am able to apply models to data I work with in order to analyze it. However, I am hoping to learn more about data science and different programming languages so that I can be a part of the data production side, such as collection and cleaning data."
+  },
+  {
+    "objectID": "DataScienceQuarto.html#r-code",
+    "href": "DataScienceQuarto.html#r-code",
+    "title": "DataScience",
+    "section": "R code",
+    "text": "R code\nIn this next section, R code chunks are utilized to show examples of adding R code to the Quarto document.\n\ny &lt;- density(iris$Petal.Width)\n\nThe class, type, and structure of y can be determined with the following R code:\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nThe echo: false option is used here to only show the plot of y, not the code."
+  }
+]
